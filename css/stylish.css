@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  background: #0b0f14;
+  color: #e6e6e6;
+  font-family: "Fira Code", monospace;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: #0f1620;
+  border-bottom: 1px solid #1f2a36;
+}
+
+.logo { color: #00ff88; }
+.status { color: #4aa3ff; }
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid #1f2a36;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #1f2a36;
+}
+
+
+.tags span {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 5px 5px 0 0;
+  font-size: 13px;
+  color: #fff;
+}
+
+
+.HTML5 {background: orangered;}
+.CSS {background: cadetblue;}
+.SQL {background: darkviolet;}
+.CPP {background: #4aa3ff;}
+.Linux {background: #0b0f14;}
+.Docker {background: #1f2a36;}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid #1f2a36;
+  color: #fff;
+  font-size: 14px;
+}
+
+.linkedin {
+  background: #0a66c2;
+}
+
+.github {
+  background: #1f1f1f;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+
+.project {
+  border-left: 3px solid #00ff88;
+  padding-left: 10px;
+}
+
+.highlight {
+  color: #00ff88;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color: #6b7280;
+  padding: 20px;
+  font-size: 13px;
+}
